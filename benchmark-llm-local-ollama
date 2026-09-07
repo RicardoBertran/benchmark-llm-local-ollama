@@ -1,8 +1,0 @@
-Modelfile.llama
-FROM llama3.1:8b
-
-PARAMETER num_ctx 4096
-PARAMETER temperature 0.3
-
-SYSTEM """Eres un asistente técnico especializado en desarrollo y análisis. Responde siempre con precisión, siguiendo estrictamente las instrucciones de formato dadas."""
-
